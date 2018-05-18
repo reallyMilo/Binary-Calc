@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Binary Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!--
+ _____
+| @ @ |
+|  *  |
+| ___ |
+\_____/
+[beep boop]
+[beep beep boop]
+[boo boop]
+
+-->
+<div id="calculator_holder">
+    <div id="result"></div>
+    <div id="btns">
+        <button id="btn0" onclick="btn_click(btn0)">0</button>
+        <button id="btn1" onclick="btn_click(btn1)">1</button>
+        <button id="btnClr" onclick="btn_click(btnClr)">C</button>
+        <button id="btnEql" onclick="answer()">=</button>
+        <button id="btnSum" onclick="op_click(btnSum)">+</button>
+        <button id="btnSub" onclick="op_click(btnSub)">-</button>
+        <button id="btnMul" onclick="op_click(btnMul)">*</button>
+        <button id="btnDiv" onclick="op_click(btnDiv)">/</button>
+    </div>
+    <script src="main.js"></script>
+</div>
+</body>
+</html>
